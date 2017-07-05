@@ -1,6 +1,6 @@
-#pragma once
+ï»¿#pragma once
 namespace generic{
-	//doubleŒ^‚Ì“ñŸŒ³ƒxƒNƒgƒ‹
+	//doubleå‹ã®äºŒæ¬¡å…ƒãƒ™ã‚¯ãƒˆãƒ«
 	class Vect {
 	public:
 		double x, y;

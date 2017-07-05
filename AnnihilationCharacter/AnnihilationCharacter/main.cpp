@@ -1,4 +1,4 @@
-#include "DxLib.h"
+ï»¿#include "DxLib.h"
 #include "generic\SceneManager.h"
 #include "game\TestScene.h"
 
@@ -12,6 +12,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		generic::SceneManager::GetInstance()->SceneUpdate();
 	}
 
-	DxLib_End(); // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+	DxLib_End(); // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†
 	return 0;
 }

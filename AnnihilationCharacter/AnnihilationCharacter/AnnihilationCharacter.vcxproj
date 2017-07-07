@@ -145,6 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="game\SelectPlayerScene\SelectPlayerCharacter.cpp" />
     <ClCompile Include="game\TitleScene\GuideLabel.cpp" />
     <ClCompile Include="game\TitleScene\SubTitleLabel.cpp" />
     <ClCompile Include="game\TitleScene\TitleLabel.cpp" />
@@ -154,6 +155,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="game\SelectPlayerScene\SelectPlayerCharacter.hpp" />
+    <ClInclude Include="game\SelectPlayerScene\SelectPlayerControl.hpp" />
+    <ClInclude Include="game\SelectPlayerScene\SelectPlayerScene.hpp" />
     <ClInclude Include="game\TitleScene\GuideLabel.hpp" />
     <ClInclude Include="game\TitleScene\SubTitleLabel.hpp" />
     <ClInclude Include="game\TitleScene\TitleLabel.hpp" />

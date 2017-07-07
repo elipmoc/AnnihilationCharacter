@@ -145,18 +145,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="game\Player.cpp" />
-    <ClCompile Include="game\TestScene.cpp" />
+    <ClCompile Include="game\TitleScene\GuideLabel.cpp" />
+    <ClCompile Include="game\TitleScene\SubTitleLabel.cpp" />
+    <ClCompile Include="game\TitleScene\TitleLabel.cpp" />
+    <ClCompile Include="game\TitleScene\TitleScene.cpp" />
     <ClCompile Include="generic\Scene.cpp" />
     <ClCompile Include="generic\SceneManager.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="game\Player.h" />
-    <ClInclude Include="game\TestScene.h" />
+    <ClInclude Include="game\TitleScene\GuideLabel.hpp" />
+    <ClInclude Include="game\TitleScene\SubTitleLabel.hpp" />
+    <ClInclude Include="game\TitleScene\TitleLabel.hpp" />
+    <ClInclude Include="game\TitleScene\TitleScene.hpp" />
     <ClInclude Include="generic\DrawObject.h" />
     <ClInclude Include="generic\Scene.h" />
     <ClInclude Include="generic\SceneManager.h" />
+    <ClInclude Include="generic\Utility.hpp" />
     <ClInclude Include="generic\Vect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

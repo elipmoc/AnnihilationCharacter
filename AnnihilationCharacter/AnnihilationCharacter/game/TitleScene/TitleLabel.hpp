@@ -1,14 +1,11 @@
 #pragma once
-#include "generic\DrawObject.h"
+#include "game\FontShow.hpp"
 
 namespace game {
 
 	//title名表示オブジェクト
-	class TitleLabel :public generic::DrawObject{
-		//フォントハンドル
-		const int fontHandle;
+	class TitleLabel :public FontShow{
 	public:
 		TitleLabel();
-		virtual void Update();
 	};
 }

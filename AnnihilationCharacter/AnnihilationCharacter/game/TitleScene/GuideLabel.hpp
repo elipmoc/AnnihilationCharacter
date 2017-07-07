@@ -1,12 +1,10 @@
 #pragma once
-#include "generic\DrawObject.h"
+#include "game\FontShow.hpp"
 
 namespace game {
 
 	//えんターキーでスタートと表示する
-	class GuideLabel :public generic::DrawObject{
-		//フォントハンドル
-		const int fontHandle;
+	class GuideLabel :public FontShow{
 		int angle;
 	public:
 		GuideLabel();

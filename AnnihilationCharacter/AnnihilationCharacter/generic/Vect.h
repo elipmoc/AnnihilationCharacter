@@ -5,7 +5,7 @@ namespace generic{
 	public:
 		double x, y;
 		Vect() :x(0), y(0) {}
-		Vect(double x, double y) :x(0), y(0) {}
+		Vect(double _x, double _y) :x(_x), y(_y) {}
 		const Vect operator+(const Vect& v)const {
 			return Vect(x + v.x, y + v.y);
 		}

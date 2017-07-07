@@ -1,12 +1,14 @@
 #include "SubTitleLabel.hpp"
 #include "DxLib.h"
+#include "generic\Vect.h"
 
-game::SubTitleLabel::SubTitleLabel()
-	:fontHandle(CreateFontToHandle(nullptr, 20, 2, DX_FONTTYPE_ANTIALIASING_EDGE_8X8))
-{
-}
-
-void game::SubTitleLabel::Update()
-{
-	DrawStringToHandle(160, 230, "`AnnihilationCharacter`", GetColor(255, 255, 255), fontHandle);
+namespace game {
+	SubTitleLabel::SubTitleLabel()
+		:FontShow(
+			CreateFontToHandle(nullptr, 20, 2, DX_FONTTYPE_ANTIALIASING_EDGE_8X8),
+			"`AnnihilationCharacter`",
+			GetColor(255, 255, 255)
+		) {
+		this->SetPos({160, 230});
+	}
 }

@@ -1,14 +1,11 @@
 #pragma once
-#include "generic\DrawObject.h"
+#include "game\FontShow.hpp"
 
 namespace game {
 
 	//subtitle名表示オブジェクト
-	class SubTitleLabel :public generic::DrawObject{
-		//フォントハンドル
-		const int fontHandle;
+	class SubTitleLabel :public FontShow {
 	public:
 		SubTitleLabel();
-		virtual void Update();
 	};
 }

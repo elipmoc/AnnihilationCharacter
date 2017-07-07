@@ -145,6 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="game\FontShow.cpp" />
     <ClCompile Include="game\SelectPlayerScene\SelectPlayerCharacter.cpp" />
     <ClCompile Include="game\TitleScene\GuideLabel.cpp" />
     <ClCompile Include="game\TitleScene\SubTitleLabel.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="game\FontShow.hpp" />
     <ClInclude Include="game\SelectPlayerScene\SelectPlayerCharacter.hpp" />
     <ClInclude Include="game\SelectPlayerScene\SelectPlayerControl.hpp" />
     <ClInclude Include="game\SelectPlayerScene\SelectPlayerScene.hpp" />

@@ -1,10 +1,10 @@
-#pragma once
+ï»¿#pragma once
 #include <memory>
 
 namespace generic{
 	class Scene;
 
-	//ƒV[ƒ“‚ğŠÇ—‚·‚éƒNƒ‰ƒX
+	//ã‚·ãƒ¼ãƒ³ã‚’ç®¡ç†ã™ã‚‹ã‚¯ãƒ©ã‚¹
 	class SceneManager {
 		std::unique_ptr<Scene> ScenePtr;
 		SceneManager():ScenePtr(nullptr) {};

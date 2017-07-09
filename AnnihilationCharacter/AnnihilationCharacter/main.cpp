@@ -5,19 +5,19 @@
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	//よくある初期化
-	ChangeWindowMode(TRUE);
-	DxLib_Init();
-	SetDrawScreen(DX_SCREEN_BACK);
+	dx::ChangeWindowMode(TRUE);
+	dx::DxLib_Init();
+	dx::SetDrawScreen(DX_SCREEN_BACK);
 
 	//最初に呼ばれるシーンをセット
 	auto titleScene = new game::TitleScene();
 	generic::SceneManager::GetInstance()->SetScene(titleScene);
 
 	//はいはいループループ
-	while (ScreenFlip() == 0 && ProcessMessage() == 0 && ClearDrawScreen() == 0) {
+	while (dx::ScreenFlip() == 0 && dx::ProcessMessage() == 0 && dx::ClearDrawScreen() == 0) {
 		generic::SceneManager::GetInstance()->SceneUpdate();
 	}
 
-	DxLib_End(); // DXライブラリ終了処理
+	dx::DxLib_End(); // DXライブラリ終了処理
 	return 0;
 }

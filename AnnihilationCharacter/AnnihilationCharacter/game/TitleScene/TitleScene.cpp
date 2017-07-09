@@ -21,7 +21,7 @@ namespace game {
 		subTitleLabelPtr->Update();
 		titleLabelPtr->Update();
 		guideLabelPtr->Update();
-		if (CheckHitKey(KEY_INPUT_RETURN) == 1)
+		if (dx::CheckHitKey(KEY_INPUT_RETURN) == 1)
 			generic::SceneManager::GetInstance()->SetScene(new SelectplayerScene);
 		
 	}

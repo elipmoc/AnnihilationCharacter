@@ -146,6 +146,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game\FontShow.cpp" />
+    <ClCompile Include="game\FontShowExtend.cpp" />
     <ClCompile Include="game\SelectPlayerScene\SelectPlayerCharacter.cpp" />
     <ClCompile Include="game\SelectPlayerScene\SelectPlayerControl.cpp" />
     <ClCompile Include="game\SelectPlayerScene\SelectPlayerScene.cpp" />
@@ -159,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\FontShow.hpp" />
+    <ClInclude Include="game\FontShowExtend.h" />
     <ClInclude Include="game\SelectPlayerScene\SelectPlayerCharacter.hpp" />
     <ClInclude Include="game\SelectPlayerScene\SelectPlayerControl.hpp" />
     <ClInclude Include="game\SelectPlayerScene\SelectPlayerScene.hpp" />

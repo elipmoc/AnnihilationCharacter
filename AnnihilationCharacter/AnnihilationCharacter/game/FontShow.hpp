@@ -8,6 +8,9 @@ namespace game {
 		std::string text;
 		unsigned int color;
 	protected:
+		const std::string GetText() { return text; }
+		const int GetFontHandle() { return fontHandle; }
+		const unsigned int GetColor() { return color; }
 		void SetFontHandle(int _fontHandle) { fontHandle = _fontHandle; };
 	public:
 		FontShow()=default;

@@ -5,7 +5,6 @@
 // 				Ver 3.16b
 // 
 // -------------------------------------------------------------------------------
-
 #ifndef __DXLIB
 #define __DXLIB
 
@@ -4570,7 +4569,8 @@ extern	MV1_REF_POLYGONLIST	MV1GetReferenceMesh(		int MHandle, int FrameIndex, in
 #ifndef DX_NON_NAMESPACE
 #ifndef DX_NON_USING_NAMESPACE_DXLIB
 
-using namespace DxLib ;
+//using namespace DxLib ;
+namespace dx = DxLib;
 
 #endif // DX_NON_USING_NAMESPACE_DXLIB
 #endif // DX_NON_NAMESPACE
@@ -4582,5 +4582,4 @@ using namespace DxLib ;
 #endif
 
 #endif
-
 

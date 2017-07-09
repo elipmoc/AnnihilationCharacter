@@ -3,9 +3,9 @@
 namespace game {
 	TitleLabel::TitleLabel():
 		FontShow(
-			CreateFontToHandle(nullptr,60, 4, DX_FONTTYPE_ANTIALIASING_EDGE_8X8),
+			dx::CreateFontToHandle(nullptr,60, 4, DX_FONTTYPE_ANTIALIASING_EDGE_8X8),
 			"Á–Å•¶Žš",
-			GetColor(255,255,255)
+			dx::GetColor(255,255,255)
 		)
 	{
 		this->SetPos({ 180,150 });

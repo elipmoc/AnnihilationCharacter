@@ -3,6 +3,6 @@
 namespace game {
 	void game::FontShow::Update()
 	{
-		DrawStringToHandle(this->GetPos().x, this->GetPos().y, text.c_str(), color, fontHandle);
+		dx::DrawStringToHandle(this->GetPos().x, this->GetPos().y, text.c_str(), color, fontHandle);
 	}
 }

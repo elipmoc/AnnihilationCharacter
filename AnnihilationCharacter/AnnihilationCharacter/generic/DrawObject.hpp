@@ -1,5 +1,5 @@
 #pragma once
-#include "Vect.h"
+#include "Vect.hpp"
 namespace generic{
 	//画面に表示するオブジェクト
 	class DrawObject {

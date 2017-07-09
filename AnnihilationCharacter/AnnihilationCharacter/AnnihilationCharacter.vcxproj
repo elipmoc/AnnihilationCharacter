@@ -147,6 +147,8 @@
   <ItemGroup>
     <ClCompile Include="game\FontShow.cpp" />
     <ClCompile Include="game\SelectPlayerScene\SelectPlayerCharacter.cpp" />
+    <ClCompile Include="game\SelectPlayerScene\SelectPlayerControl.cpp" />
+    <ClCompile Include="game\SelectPlayerScene\SelectPlayerScene.cpp" />
     <ClCompile Include="game\TitleScene\GuideLabel.cpp" />
     <ClCompile Include="game\TitleScene\SubTitleLabel.cpp" />
     <ClCompile Include="game\TitleScene\TitleLabel.cpp" />
@@ -164,11 +166,11 @@
     <ClInclude Include="game\TitleScene\SubTitleLabel.hpp" />
     <ClInclude Include="game\TitleScene\TitleLabel.hpp" />
     <ClInclude Include="game\TitleScene\TitleScene.hpp" />
-    <ClInclude Include="generic\DrawObject.h" />
-    <ClInclude Include="generic\Scene.h" />
-    <ClInclude Include="generic\SceneManager.h" />
+    <ClInclude Include="generic\DrawObject.hpp" />
+    <ClInclude Include="generic\Scene.hpp" />
+    <ClInclude Include="generic\SceneManager.hpp" />
     <ClInclude Include="generic\Utility.hpp" />
-    <ClInclude Include="generic\Vect.h" />
+    <ClInclude Include="generic\Vect.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,5 @@
 #pragma once
-#include "generic\Scene.h"
+#include "generic\Scene.hpp"
 #include <memory>
 namespace game {
 	class TitleLabel;

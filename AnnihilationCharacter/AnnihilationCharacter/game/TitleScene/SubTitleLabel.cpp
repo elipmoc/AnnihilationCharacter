@@ -1,6 +1,6 @@
 #include "SubTitleLabel.hpp"
 #include "DxLib.h"
-#include "generic\Vect.h"
+#include "generic\Vect.hpp"
 
 namespace game {
 	SubTitleLabel::SubTitleLabel()

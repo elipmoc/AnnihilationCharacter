@@ -1,5 +1,5 @@
 #pragma once
-#include "generic\DrawObject.h"
+#include "generic\DrawObject.hpp"
 #include <string>
 namespace game {
 	class FontShow :public generic::DrawObject{

@@ -1,5 +1,5 @@
-﻿#include "SceneManager.h"
-#include "Scene.h"
+﻿#include "SceneManager.hpp"
+#include "Scene.hpp"
 namespace generic{
 	void SceneManager::SceneUpdate()
 	{

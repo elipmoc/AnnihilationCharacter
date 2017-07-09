@@ -1,5 +1,5 @@
 ﻿#include "DxLib.h"
-#include "generic\SceneManager.h"
+#include "generic\SceneManager.hpp"
 #include "game\TitleScene\TitleScene.hpp"
 
 

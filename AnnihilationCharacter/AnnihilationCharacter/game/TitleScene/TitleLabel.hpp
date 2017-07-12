@@ -1,10 +1,10 @@
 #pragma once
-#include "game\FontShow.hpp"
+#include "generic\FontShow.hpp"
 
 namespace game {
 
 	//title名表示オブジェクト
-	class TitleLabel :public FontShow{
+	class TitleLabel :public generic::FontShow{
 	public:
 		TitleLabel();
 	};

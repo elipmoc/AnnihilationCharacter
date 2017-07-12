@@ -1,10 +1,10 @@
 #pragma once
-#include "game\FontShow.hpp"
+#include "generic\FontShow.hpp"
 
 namespace game {
 
 	//えんターキーでスタートと表示する
-	class GuideLabel :public FontShow{
+	class GuideLabel :public generic::FontShow{
 		int angle;
 	public:
 		GuideLabel();

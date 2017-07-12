@@ -1,16 +1,17 @@
 #pragma once
 #include "generic\DrawObject.hpp"
 #include <string>
-namespace game {
+namespace generic {
 	class FontShow :public generic::DrawObject{
 	private:
 		int fontHandle;
 		std::string text;
 		unsigned int color;
 	protected:
-		const std::string GetText() { return text; }
-		const int GetFontHandle() { return fontHandle; }
-		const unsigned int GetColor() { return color; }
+		const std::string GetText()const { return text; }
+		void SetText(const std::string& _text) { text=_text; }
+		const int GetFontHandle() const{ return fontHandle; }
+		const unsigned int GetColor() const{ return color; }
 		void SetFontHandle(int _fontHandle) { fontHandle = _fontHandle; };
 	public:
 		FontShow()=default;

@@ -39,19 +39,19 @@
     <ClCompile Include="game\SelectPlayerScene\SelectPlayerCharacter.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="game\FontShow.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="game\SelectPlayerScene\SelectPlayerControl.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="game\SelectPlayerScene\SelectPlayerScene.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="game\FontShowExtend.cpp">
+    <ClCompile Include="generic\KeyControl.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="generic\KeyControl.cpp">
+    <ClCompile Include="generic\FontShow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\FontShowExtend.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
@@ -80,9 +80,6 @@
     <ClInclude Include="game\SelectPlayerScene\SelectPlayerCharacter.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="game\FontShow.hpp">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="generic\DrawObject.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
@@ -95,10 +92,13 @@
     <ClInclude Include="generic\Vect.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="game\FontShowExtend.h">
+    <ClInclude Include="generic\KeyControl.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="generic\KeyControl.hpp">
+    <ClInclude Include="generic\FontShow.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\FontShowExtend.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>

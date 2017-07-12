@@ -1,9 +1,9 @@
 #include "FontShowExtend.h"
 #include "DxLib.h"
 
-namespace game {
+namespace generic {
 
-	FontShowExtend::FontShowExtend(int _fontHandle, std::string _text, unsigned int _color, generic::Vect _scale) :
+	FontShowExtend::FontShowExtend(int _fontHandle, std::string _text, unsigned int _color, Vect _scale) :
 		FontShow(_fontHandle, _text, _color),scale(_scale)
 	{
 	}

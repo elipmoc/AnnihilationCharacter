@@ -1,10 +1,10 @@
 #pragma once
-#include "game\FontShow.hpp"
+#include "generic\FontShow.hpp"
 
 namespace game {
 
 	//subtitle名表示オブジェクト
-	class SubTitleLabel :public FontShow {
+	class SubTitleLabel :public generic::FontShow {
 	public:
 		SubTitleLabel();
 	};

@@ -2,17 +2,19 @@
 #include "FontShow.hpp"
 #include "generic\Vect.hpp"
 
-namespace game {
+namespace generic {
 	//FontShowÇägí£ÇµÇƒÅAï∂éöÇägëÂÇ≈Ç´ÇÈÇÊÇ§Ç…ÅIÅI
-	class FontShowExtend :public game::FontShow{
+	class FontShowExtend :public FontShow{
 	private:
-		generic::Vect scale;
+		Vect scale;
+	protected:
+		void SetScale(const Vect& _scale) { scale = _scale; }
 	public:
 		//FontShowExtend() = default;
 		template<class ...Args>
 		FontShowExtend(Args ...args) :FontShow(args...) {};
 
-		FontShowExtend(int _fontHandle, std::string _text, unsigned int _color,generic::Vect Scale);
+		FontShowExtend(int _fontHandle, std::string _text, unsigned int _color,Vect Scale);
 
 		virtual void Update();
 	};

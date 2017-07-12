@@ -1,16 +1,13 @@
 #pragma once
-#include "generic\DrawObject.hpp"
+#include "generic\FontShowExtend.h"
 #include <string>
 namespace game {
 	//プレイヤー選択文字オブジェクト
-	class SelectPlayerCharacter:public generic::DrawObject{
-		const int fontHandle;
-		std::string text;
-		int fontSize;
+	class SelectPlayerCharacter:public generic::FontShowExtend{
 	public:
-		SelectPlayerCharacter();
-		//主人公の文字設定
-		void SetText(std::string);
-		virtual void Update();
+		void SetPos(const generic::Vect& pos) { FontShowExtend::SetPos(pos);}
+		//表示する文字設定
+		SelectPlayerCharacter(std::string);
+	//	virtual void Update();
 	};
 }

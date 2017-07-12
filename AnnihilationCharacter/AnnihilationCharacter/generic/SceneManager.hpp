@@ -5,6 +5,7 @@ namespace generic{
 	class Scene;
 
 	//シーンを管理するクラス
+	//スレッドセーフではないシングルトン
 	class SceneManager {
 		std::unique_ptr<Scene> ScenePtr;
 		SceneManager():ScenePtr(nullptr) {};

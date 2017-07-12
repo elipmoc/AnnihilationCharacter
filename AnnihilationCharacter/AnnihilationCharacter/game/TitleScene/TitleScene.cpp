@@ -4,6 +4,7 @@
 #include "GuideLabel.hpp"
 #include "generic\SceneManager.hpp"
 #include "game\SelectPlayerScene\SelectPlayerScene.hpp"
+#include "generic\KeyControl.hpp"
 #include "DxLib.h"
 
 namespace game {
@@ -21,7 +22,7 @@ namespace game {
 		subTitleLabelPtr->Update();
 		titleLabelPtr->Update();
 		guideLabelPtr->Update();
-		if (dx::CheckHitKey(KEY_INPUT_RETURN) == 1)
+		if (generic::KeyControl::GetInstance()->GetKey(KEY_INPUT_RETURN) == 1)
 			generic::SceneManager::GetInstance()->SetScene(new SelectplayerScene);
 		
 	}

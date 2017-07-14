@@ -11,6 +11,6 @@ namespace game {
 		std::unique_ptr<GuideLabel> guideLabelPtr;
 	public:
 		TitleScene();
-		virtual void Update();
+		virtual void Update()override;
 	};
 }

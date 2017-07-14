@@ -25,6 +25,6 @@ namespace generic {
 		FontShow(int _fontHandle,std::string _text,unsigned int _color):
 			fontHandle(_fontHandle), text(_text),color(_color) {};
 
-		virtual void Update();
+		virtual void Update()override;
 	};
 }

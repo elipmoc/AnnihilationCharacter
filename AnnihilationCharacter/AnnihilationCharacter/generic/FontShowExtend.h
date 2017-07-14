@@ -16,6 +16,6 @@ namespace generic {
 
 		FontShowExtend(int _fontHandle, std::string _text, unsigned int _color,Vect Scale);
 
-		virtual void Update();
+		virtual void Update()override;
 	};
 }

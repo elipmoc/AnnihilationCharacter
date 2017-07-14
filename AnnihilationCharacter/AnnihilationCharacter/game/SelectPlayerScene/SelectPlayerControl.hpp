@@ -16,7 +16,7 @@ namespace game {
 		public:
 
 		SelectPlayerControl();
-		virtual void Update();
+		virtual void Update()override;
 
 	};
 }

@@ -9,6 +9,6 @@ namespace game {
 		std::unique_ptr<SelectPlayerControl> selectPlayerControlPtr;
 	public:
 		SelectplayerScene();
-		virtual void Update();
+		virtual void Update()override;
 	};
 }

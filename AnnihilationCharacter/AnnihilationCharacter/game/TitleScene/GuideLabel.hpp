@@ -8,6 +8,6 @@ namespace game {
 		int angle;
 	public:
 		GuideLabel();
-		virtual void Update();
+		virtual void Update()override;
 	};
 }

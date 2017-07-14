@@ -160,6 +160,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="game\WindowConfig.h" />
     <ClInclude Include="generic\FontShow.hpp" />
     <ClInclude Include="generic\FontShowExtend.h" />
     <ClInclude Include="game\SelectPlayerScene\SelectPlayerCharacter.hpp" />

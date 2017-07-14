@@ -1,10 +1,13 @@
 ﻿#include "DxLib.h"
 #include "generic\SceneManager.hpp"
 #include "game\TitleScene\TitleScene.hpp"
+#include "game\WindowConfig.h"
 
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	//よくある初期化
+	dx::SetGraphMode(game::WINDOW_W, game::WINDOW_H, 32);
+	dx::SetMainWindowText(game::WINDOW_TITLE);
 	dx::ChangeWindowMode(TRUE);
 	dx::DxLib_Init();
 	dx::SetDrawScreen(DX_SCREEN_BACK);

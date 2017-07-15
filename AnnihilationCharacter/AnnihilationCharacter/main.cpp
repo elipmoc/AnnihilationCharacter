@@ -2,7 +2,7 @@
 #include "generic\SceneManager.hpp"
 #include "game\TitleScene\TitleScene.hpp"
 #include "game\WindowConfig.h"
-
+#include "generic\Latter.hpp"
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	//よくある初期化

@@ -9,7 +9,7 @@ namespace generic{
 		virtual const Vect GetPos()const { return pos; }
 		virtual void SetPos(const Vect& _pos) { pos = _pos; }
 	public:
-		virtual void Update() = 0;
+		virtual void Update() {};
 		virtual ~DrawObject() {};
 	};
 }
